@@ -112,16 +112,13 @@ def inspect_server(ip_address,user,passwd,port):
                     results.append(f"Error on {ip_address}: {error}")
                 else:
                     results.append(f"Output from {ip_address}:\n{output}")
-        
-
         client.close()
         return filename
     except Exception as e:
         return f"Failed to connect to: {str(e)}"
 
 
-
-if __name__ == '__main__':
+def main():
     dir_url = r"D:\server"
     load_dotenv(r'D:\server\.env')
     devices = [f'192.168.10.{ip}' for ip in range(32, 34)]
@@ -143,3 +140,6 @@ if __name__ == '__main__':
                 print(f"巡检报告已生成：{Report}")
         os.remove(report_file)
         print("-"*60)
+
+if __name__ == '__main__':
+    main()
