@@ -7,8 +7,6 @@
 [![DeepSeekv3](https://img.shields.io/badge/DeepSeek-v3-006AFF?logo=deepseek&logoColor=white)](https://www.deepseek.com)
 
 
-自动化工具：集成 OpenAI、网络设备操作与文档生成的智能工作流
-
 ## ✨ 功能特性
 - **AI 集成**：通过 OpenAI API 实现自然语言交互
 - **服务器远程管理**：通过SSH 连接Linux服务器
