@@ -119,6 +119,7 @@ def inspect_server(ip_address,user,passwd,port):
 
 
 def main():
+    global dir_url
     dir_url = r"D:\server"
     load_dotenv(r'D:\server\.env')
     devices = [f'192.168.10.{ip}' for ip in range(32, 34)]
