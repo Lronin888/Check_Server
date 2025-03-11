@@ -25,6 +25,6 @@ pip install openai python-dotenv ollama paramiko
 ```
 ### 运行方式
 ```bash
-python network_file.py
+python server_check.py
 ```
 ![image](https://github.com/user-attachments/assets/c442fd9d-d983-425d-b78a-449b892ace93)
